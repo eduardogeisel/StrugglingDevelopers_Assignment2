@@ -7,11 +7,25 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Group Description</title>
+<link href="<c:url value='resources/group.css'/>" rel="stylesheet" />
 </head>
 <body>
 	<h1>Team: ${group.teamName }</h1>
-	<img src="<c:url value='/resources/selfie_cwu_18.jpg'/>" />
-
+	<table>
+	<tr>
+	<td>
+	<img src="<c:url value='/resources/${member.imgSrc}'/>" alt="Travis's selfie" width="200" height="300" /></td>
+	<td>
+	<img src="<c:url value='/resources/${member.imgSrc}'/>" alt="Travis's selfie" width="200" height="300" /></td>
+	<td>
+	<img src="<c:url value='/resources/${member.imgSrc}'/>" alt="Travis's selfie" width="200" height="300" /></td>
+	</tr>
+	<tr>
+	<td>${member.name}</td>
+	<td>${member.name}</td>
+	<td>${member.name}</td>
+	</tr>
+</table>
 	<label for = "txtGroup">Group Description:</label>
 		<p id="txtGroup" name="txtGroup">${group.groupDescription}</p>
 

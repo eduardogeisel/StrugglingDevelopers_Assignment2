@@ -8,8 +8,7 @@ public class GroupDescription_cwu_18 {
 		return "This is a wonderful group which includes 4 students.<br>"
 				+ "Eduardo, Soheila, Mansi, and Travis. <br>"
 				+ "We team up to finish Software engineering project.<br>"
-				+ "Our project is about booking room system. <br>"
-				+ "Our team name is: " + this.teamName;
+				+ "Our project is about booking room system. <br>";
 	}
 
 

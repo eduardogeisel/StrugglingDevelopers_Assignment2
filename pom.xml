@@ -6,11 +6,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.csis3275.labs</groupId>
-	<artifactId>Templete-cwu-18</artifactId>
+	<artifactId>StrugglingDevelopers_Assignment2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>Templete-cwu-18 Maven Webapp</name>
+	<name>StrugglingDevelopers_Assignment2 Maven Webapp</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 
@@ -51,7 +51,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>Templete-cwu-18</finalName>
+		<finalName>StrugglingDevelopers_Assignment2</finalName>
 		<pluginManagement><!-- lock down plugins versions to avoid using Maven 
 				defaults (may be moved to parent pom) -->
 			<plugins>
