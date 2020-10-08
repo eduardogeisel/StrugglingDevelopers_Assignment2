@@ -8,7 +8,7 @@ import org.springframework.context.support.ResourceBundleMessageSource;
 import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
-import org.springframework.web.servlet.config.annotation.WebMvcConfigurationSupport;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 import org.springframework.web.servlet.view.JstlView;
 
@@ -16,7 +16,7 @@ import org.springframework.web.servlet.view.JstlView;
 @EnableWebMvc
 @ComponentScan(basePackages = "com.csis3275") // This must match your packages
 
-public class SpringMVCConfig_cwu_18 extends WebMvcConfigurationSupport{
+public class SpringMVCConfig_cwu_18 implements WebMvcConfigurer{
 
 	// View, this class resolves the view name to the .jsp file.
 	@Bean
