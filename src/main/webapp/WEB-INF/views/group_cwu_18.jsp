@@ -9,15 +9,10 @@
 <title>Group Description</title>
 </head>
 <body>
-	<h1>Group Description</h1>
+	<h1>Team: ${group.teamName }</h1>
 	<form:form method="POST" modelAttribute="group">
-		<table>
-			<tr>
-				<td><label>Group Description</label></td>
-				<td><form:input type="text" path="groupDesciption" id="groupDesciption" />
-					</td>
-			</tr>
-		</table>
+	<label for = "txtGroup">Group Description:</label>
+		<p id="txtGroup" name="txtGroup">${group.groupDescription}</p>
 	</form:form>
 </body>
 </html>

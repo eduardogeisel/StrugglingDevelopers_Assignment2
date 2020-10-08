@@ -22,8 +22,17 @@ public class GroupController_cwu_18 {
 	 */
 	@RequestMapping(method = RequestMethod.GET)
 	public String newProfile(ModelMap model) {
-		GroupDescription_cwu_18 groupDescription = new GroupDescription_cwu_18();
-		model.addAttribute("group", groupDescription);
+		GroupDescription_cwu_18 group = new GroupDescription_cwu_18();
+		String teamName = "Struggling Developers";
+		group.setTeamName(teamName);
+		String desContent = "This is a wonderful group which includes 4 students.<br>"
+				+ "Eduardo, Soheila, Mansi, and Travis. <br>"
+				+ "We team up to finish Software engineering project.<br>"
+				+ "Our project is about booking room system. <br>"
+				+ "Our team name is: " + group.getTeamName();
+		group.setGroupDescription(desContent);
+		
+		model.addAttribute("group", group);
 		return "group_cwu_18";
 	}
 
