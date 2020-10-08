@@ -41,5 +41,6 @@ public class SpringMVCConfig_cwu_18 extends WebMvcConfigurationSupport{
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		registry.addResourceHandler("/static/**").addResourceLocations("/static/");
+		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/");
 	}
 }
