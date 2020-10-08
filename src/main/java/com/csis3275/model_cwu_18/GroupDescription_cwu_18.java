@@ -5,19 +5,17 @@ public class GroupDescription_cwu_18 {
 	private String groupDescription;
 
 	public String getGroupDescription() {
-		return groupDescription;
+		return "This is a wonderful group which includes 4 students.<br>"
+				+ "Eduardo, Soheila, Mansi, and Travis. <br>"
+				+ "We team up to finish Software engineering project.<br>"
+				+ "Our project is about booking room system. <br>"
+				+ "Our team name is: " + this.teamName;
 	}
 
-	public void setGroupDescription(String groupDescription) {
-		this.groupDescription = groupDescription;
-	}
 
 	public String getTeamName() {
-		return teamName;
+		return "Struggling Developers";
 	}
 
-	public void setTeamName(String teamName) {
-		this.teamName = teamName;
-	}
 
 }
