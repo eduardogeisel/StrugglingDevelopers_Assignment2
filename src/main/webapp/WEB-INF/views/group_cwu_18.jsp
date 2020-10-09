@@ -14,11 +14,13 @@
 	<table>
 	<tr>
 	<td>
-	<img src="<c:url value='/resources/${member.imgSrc}'/>" alt="Travis's selfie" width="200" height="300" /></td>
+	<img src="<c:url value='/resources/${member1.imgSrc}'/>" alt="Travis's selfie" width="250" height="300" /></td>
 	<td>
-	<img src="<c:url value='/resources/${member.imgSrc}'/>" alt="Travis's selfie" width="200" height="300" /></td>
+	<img src="<c:url value='/resources/${member2.imgSrc}'/>" alt="Eduardo's selfie" width="250" height="300" /></td>
 	<td>
-	<img src="<c:url value='/resources/${member.imgSrc}'/>" alt="Travis's selfie" width="200" height="300" /></td>
+	<img src="<c:url value='/resources/${member3.imgSrc}'/>" alt="Mansi's selfie" width="250" height="300" /></td>
+	<td>
+	<img src="<c:url value='/resources/${member4.imgSrc}'/>" alt="Soheila's selfie" width="250" height="300" /></td>
 	</tr>
 	<tr>
 	<td>${member.name}</td>
