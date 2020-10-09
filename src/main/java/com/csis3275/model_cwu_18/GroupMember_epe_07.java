@@ -14,7 +14,7 @@ public class GroupMember_epe_07 {
 	}
 
 	public String getImgSrc() {
-		return "selfie_epe_07.jpg";
+		return "selfie_epe_07.JPG";
 	}
 	
 }
