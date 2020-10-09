@@ -10,10 +10,7 @@ public class GroupMember_epe_07 {
 	private String name;
 	private String id;
 	private String imgSrc;
-	
-	/**
-	 * These are Eduardo's class getters 
-	 */
+
 	
 	public String getName() {
 		return "Eduardo Peres";

@@ -10,10 +10,7 @@ public class GroupMember_sho_38 {
 	private String id;
 	private String imgSrc;
 
-	/**
-	 * These are getter methods
-	 * 
-	 */
+
 	public String getName() {
 		return "Soheila Hoseini";
 	}
