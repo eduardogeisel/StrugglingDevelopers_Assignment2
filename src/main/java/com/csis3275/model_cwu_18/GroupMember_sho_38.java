@@ -2,7 +2,7 @@ package com.csis3275.model_cwu_18;
 
 /**
  *  This is a class for Soheila 
- * @author 300311938
+ *  
  *
  */
 public class GroupMember_sho_38 {
@@ -12,7 +12,7 @@ public class GroupMember_sho_38 {
 
 	/**
 	 * These are getter methods
-	 * @return
+	 * 
 	 */
 	public String getName() {
 		return "Soheila Hoseini";
