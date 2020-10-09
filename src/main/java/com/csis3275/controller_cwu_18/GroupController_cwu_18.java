@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import com.csis3275.model_cwu_18.GroupDescription_cwu_18;
 import com.csis3275.model_cwu_18.GroupMember_cwu_18;
 import com.csis3275.model_cwu_18.GroupMember_epe_07;
+import com.csis3275.model_cwu_18.GroupMember_mjo_56;
 
 @Controller
 //Here we will have this controller respond to requests from /employee for the employee servlet.
@@ -31,9 +32,11 @@ public class GroupController_cwu_18 {
 		GroupDescription_cwu_18 group = new GroupDescription_cwu_18();
 		GroupMember_cwu_18 member1 = new GroupMember_cwu_18();
 		GroupMember_epe_07 member2 = new GroupMember_epe_07();
+		GroupMember_mjo_56 member3 = new GroupMember_mjo_56();
 		model.addAttribute("group", group);
 		model.addAttribute("member1", member1);
 		model.addAttribute("member2", member2);
+		model.addAttribute("member3", member3);
 		return "group_cwu_18";
 	}
 
