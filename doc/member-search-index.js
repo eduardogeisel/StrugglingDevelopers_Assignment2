@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.csis3275.model_cwu_18","c":"GroupMember_epe_07","l":"getId()"},{"p":"com.csis3275.model_cwu_18","c":"GroupMember_epe_07","l":"getImgSrc()"},{"p":"com.csis3275.model_cwu_18","c":"GroupMember_epe_07","l":"getName()"},{"p":"com.csis3275.model_cwu_18","c":"GroupMember_epe_07","l":"GroupMember_epe_07()","url":"%3Cinit%3E()"}]
