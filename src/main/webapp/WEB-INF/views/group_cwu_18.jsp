@@ -7,7 +7,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Group Description</title>
-<link href="<c:url value='resources/group.css'/>" rel="stylesheet" />
+
 </head>
 <body>
 	<h1>Team: ${group.teamName }</h1>
