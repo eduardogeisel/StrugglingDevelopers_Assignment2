@@ -1,5 +1,9 @@
 package com.csis3275.model_cwu_18;
-
+/**
+ * 
+ * This is travis class for student information
+ *
+ */
 public class GroupMember_cwu_18 {
 
 	private String name;
