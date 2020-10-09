@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.csis3275.model_cwu_18.GroupDescription_cwu_18;
 import com.csis3275.model_cwu_18.GroupMember_cwu_18;
+import com.csis3275.model_cwu_18.GroupMember_epe_07;
 
 @Controller
 //Here we will have this controller respond to requests from /employee for the employee servlet.
@@ -28,9 +29,11 @@ public class GroupController_cwu_18 {
 	@RequestMapping(method = RequestMethod.GET)
 	public String newProfile(ModelMap model) {
 		GroupDescription_cwu_18 group = new GroupDescription_cwu_18();
-		GroupMember_cwu_18 member = new GroupMember_cwu_18();
+		GroupMember_cwu_18 member1 = new GroupMember_cwu_18();
+		GroupMember_epe_07 member2 = new GroupMember_epe_07();
 		model.addAttribute("group", group);
-		model.addAttribute("member", member);
+		model.addAttribute("member1", member1);
+		model.addAttribute("member2", member2);
 		return "group_cwu_18";
 	}
 
